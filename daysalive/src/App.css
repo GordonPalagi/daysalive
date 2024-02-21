@@ -1,0 +1,89 @@
+#root {
+  /* max-width: 1440px; */
+  /* width: 100%; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: black;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  background-color: white;
+  border-radius: 10px 10px 35% 10px;
+  padding: 2rem;
+  font-family: 'Poppins', 'sans-serif';
+  /* width: 500px; */
+  height: fit-content;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.year-selection {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+p {
+  margin: 0;
+  font-size: 7vw;
+}
+
+span {
+  color: purple;
+}
+
+.line {
+  color: lightgrey;
+  width: 100%;
+}
+
+.submit-line {
+  display: flex;
+  align-items: center;
+}
+
+.submit-button {
+  padding: 30px 0px;
+  transform: scale(2.5);
+}
+
+.submit-button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    width: 235px;
+  }
+
+  p{
+    font-size: 40px;
+  }
+
+  #root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
